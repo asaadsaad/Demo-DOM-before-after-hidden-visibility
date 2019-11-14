@@ -1,0 +1,17 @@
+div{
+    border: 1px black dotted;
+}
+#sectionOne{
+    display:none
+}
+
+#sectionTwo{
+    visibility: hidden;
+}
+
+#sectionThree::before{
+    content: "Before Text";
+}
+#sectionThree::after{
+    content: "After Text";
+}
